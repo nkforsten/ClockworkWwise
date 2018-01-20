@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{243990C7-04F6-4C08-ADB4-852A410D414C}" SchemaVersion="85">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{243990C7-04F6-4C08-ADB4-852A410D414C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{96035614-30BB-45BD-BB41-ECD5D5397A71}" WorkUnitID="{32FC7EA7-207A-460E-BFD8-0087126AA664}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{3E7FCE32-DA32-4793-BC57-3C3835D019C5}"/>
+						<Bus Name="Player_SFX" ID="{F66D22E8-183C-4E47-B132-03D41774D8D0}"/>
+						<Bus Name="NPC_SFX" ID="{27ACE422-343E-48F8-951D-58B12582A46F}"/>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{96035614-30BB-45BD-BB41-ECD5D5397A71}" WorkUnitID="{32FC7EA7-207A-460E-BFD8-0087126AA664}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

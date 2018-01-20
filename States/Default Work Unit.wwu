@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CD2808D3-638B-4820-B494-512D6988F062}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{CD2808D3-638B-4820-B494-512D6988F062}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="EnemyCount" ID="{2AFAFA44-BFD5-47AA-A378-F278789F13CA}">
+					<ChildrenList>
+						<State Name="None" ID="{6A5DE35B-4EB6-44ED-8826-8899B29A9B8B}"/>
+						<State Name="BelowX" ID="{FFFE8E77-C85A-4F8D-88E3-CD10A90ABA66}"/>
+						<State Name="BetweenXandY" ID="{4C426135-2640-437A-8252-D02979C752F1}"/>
+						<State Name="AboveY" ID="{995F3393-4B68-42D7-B836-E74D4EC16576}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1CF72178-8AFF-4D53-A4B6-A32157C1CBFF}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{1CF72178-8AFF-4D53-A4B6-A32157C1CBFF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Music" ID="{3017B5B8-20E9-4640-9427-C7EB577A93D1}">
+					<ChildrenList>
+						<Switch Name="Library" ID="{A713D3AA-147B-4CBB-8CB4-E483356BE909}"/>
+						<Switch Name="Metronorman" ID="{EFC76529-81E3-43F4-B99F-DA3E210BFA8B}"/>
+						<Switch Name="MainMenu" ID="{267EA479-4564-495A-B3BB-BE83016B920B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

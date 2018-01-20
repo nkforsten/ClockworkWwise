@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2837384057	Stop_Music			\Default Work Unit\Stop_Music	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	769217524	EnemyCount			\Default Work Unit\EnemyCount	
+
+State	ID	Name	State Group			Notes
+	748895195	None	EnemyCount			
+	1378574949	BetweenXandY	EnemyCount			
+	3865949629	AboveY	EnemyCount			
+	4012742084	BelowX	EnemyCount			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	16423973	BetweenXandY	EnemyCount	\Interactive Music Hierarchy\Default Work Unit\Music\Lib_Loops\Lib_Tracks\Lb_01		
+	57111232	BelowX	EnemyCount	\Interactive Music Hierarchy\Default Work Unit\Music\Lib_Loops\Lib_Tracks\Lb_03		
+	139101743	BelowX	EnemyCount	\Interactive Music Hierarchy\Default Work Unit\Music\Lib_Loops\Lib_Tracks\Lb_02		
+	213087346	AboveY	EnemyCount	\Interactive Music Hierarchy\Default Work Unit\Music\Lib_Loops\Lib_Tracks\Lb_01		
+	304689740	BetweenXandY	EnemyCount	\Interactive Music Hierarchy\Default Work Unit\Music\Lib_Loops\Lib_Tracks\Lb_03		
+	467516806	AboveY	EnemyCount	\Interactive Music Hierarchy\Default Work Unit\Music\Lib_Loops\Lib_Tracks\Lb_02		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4070528516	TimeScale			\Default Work Unit\TimeScale	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	244004209	Lb_01	C:\Users\Rain\Documents\WwiseProjects\Clockwork\.cache\Windows\SFX\Lb_01_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Lib_Loops\Lib_Tracks\Lb_01		19756864
+	340397754	Met_01	C:\Users\Rain\Documents\WwiseProjects\Clockwork\.cache\Windows\SFX\MetronormanRough_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Met_Loops\Met_Tracks\Met_01		14593156
+	490766986	Lb_02	C:\Users\Rain\Documents\WwiseProjects\Clockwork\.cache\Windows\SFX\Lb_02_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Lib_Loops\Lib_Tracks\Lb_02		19756864
+	946731081	Lb_03	C:\Users\Rain\Documents\WwiseProjects\Clockwork\.cache\Windows\SFX\Lb_03_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Lib_Loops\Lib_Tracks\Lb_03		19756864
+

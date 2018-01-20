@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EC059860-090C-4DFB-90A6-DB0567D35D67}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{EC059860-090C-4DFB-90A6-DB0567D35D67}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="TimeScale" ID="{FB7E7448-2F75-4173-84D7-0F05890B1171}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="39.776"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Rain\Documents\WwiseProjects\Clockwork\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Rain\Documents\WwiseProjects\Clockwork\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Rain\Documents\WwiseProjects\Clockwork\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Rain\Documents\WwiseProjects\Clockwork\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
+				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Stop_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="244004209" Language="SFX">
+					<ShortName>Lb_01.wav</ShortName>
+					<Path>SFX\Lb_01_F17FB28C.wem</Path>
+				</File>
+				<File Id="340397754" Language="SFX">
+					<ShortName>MetronormanRough.wav</ShortName>
+					<Path>SFX\MetronormanRough_F17FB28C.wem</Path>
+				</File>
+				<File Id="490766986" Language="SFX">
+					<ShortName>Lb_02.wav</ShortName>
+					<Path>SFX\Lb_02_F17FB28C.wem</Path>
+				</File>
+				<File Id="946731081" Language="SFX">
+					<ShortName>Lb_03.wav</ShortName>
+					<Path>SFX\Lb_03_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
